@@ -1,0 +1,32 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"BracketHighlighter",
+		"Can I Use",
+		"CSS Snippets",
+		"CSScomb",
+		"CSSLint",
+		"CSSTidy",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"FileDiffs",
+		"Git",
+		"Hayaku - tools for writing CSS faster",
+		"jQuery",
+		"jQuery Snippets pack",
+		"LESS-build",
+		"Minifier",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"SASS Build",
+		"SASS Snippets",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SVN",
+		"TidyHTML5"
+	]
+}

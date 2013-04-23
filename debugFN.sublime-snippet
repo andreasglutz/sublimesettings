@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+function debug(s){
+	if(typeof console != "undefinded" && typeof console.debug != "undefined"){
+		console.log(s);
+	}else{
+		alert(s);
+	}    
+}
+]]></content>
+	<tabTrigger>debug js function</tabTrigger>
+	<!-- <scope>text.css</scope> -->
+</snippet>

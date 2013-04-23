@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+
+<article class="media">
+	<a href="#" class="left">
+		<img src="http://www.lorempixel.com/400/200/technics" alt="" />
+		<p>caption</p>
+	</a>
+	<div class="bd">
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+	</div>
+</article>
+<style type="text/css">
+	.media { background: #EEEEEE; }
+	.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+	.media .left {float:left; margin-right: 10px;}
+	.media .left img{display:block;}
+	.media .right{float:right; margin-left: 10px;}	
+</style>
+
+]]></content>
+	<tabTrigger>txtimg</tabTrigger>
+	<!-- <scope>text.html</scope> -->
+</snippet>

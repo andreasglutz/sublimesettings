@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/* These handle massive type, for less frequently occuring bits of text (e.g. in mastheads and banners). */
+.giga { [font styles] }
+.mega { [font styles] }
+.kilo { [font styles] }
+
+h1,.alpha { [font styles] }
+h2,.beta { [font styles] }
+h3,.gamma { [font styles] }
+h4,.delta { [font styles] }
+h5,.epsilon { [font styles] }
+h6,.zeta { [font styles] }
+
+/* Smaller-than-body-copy sizes here. */
+small,.milli { [font styles] }
+]]></content>
+	<tabTrigger>heading</tabTrigger>
+	<!-- <scope>text.css</scope> -->
+</snippet>

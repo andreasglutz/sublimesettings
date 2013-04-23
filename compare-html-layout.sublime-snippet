@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript">
+/**
+ * T E M P O R A R Y : radiobuttons to compare markup and psd
+ */
+(function() {
+	var img = \$('<img id="psdlayout">').appendTo('body');
+	var layout = function() {
+		\$('#psdlayout').css({
+			position: 'absolute',
+			zIndex: 1,
+			top: 0,
+			left: 0.5 * (\$(window).width() - img.width()),
+			visibility: 'hidden'
+		});
+	};
+	img.load(layout);
+	\$(window).resize(layout);
+	img.attr('src', 'http://cdn.inprnt.com/media/prints/3281/full.jpg'); //path to layout
+	
+	\$('<div id="tmp">').css({
+		position: 'fixed',
+		font:'normal 12px/1 Arial',
+		zIndex: 2,
+		top: 5,
+		left: 5,
+		padding: 5,
+		backgroundColor: '#eeeeee',
+		borderRadius: 5,
+		opacity: 0.5,
+		boxShadow: '0 2px 10px rgba(0, 0, 0, 0.2)'
+	}).appendTo('body');
+	
+	\$('<label title=""><input type="radio" name="layout" value="web" checked> web</label>').appendTo(\$('#tmp'));
+	\$('<label title="Blendet einen Screenshot des Photoshop-Layouts ein"><input type="radio" name="layout" value="psd"> psd</label>').appendTo(\$('#tmp'));
+	
+	\$('[name=layout]').change(function() {
+		\$('#psdlayout').css('visibility', \$('[name=layout]:checked').val()==='psd' ? 'visible' : 'hidden');
+	});
+}());
+</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
